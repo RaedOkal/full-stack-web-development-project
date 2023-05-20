@@ -1,4 +1,4 @@
-#Project Description:
+# Project Description:
 
 This GitHub project showcases an online book store with comprehensive functionality, including user login and registration forms. The project incorporates an engaging homepage that dynamically displays the latest books from the database and the most recent categories. Users can easily add desired books to their shopping carts.
 
