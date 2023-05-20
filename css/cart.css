@@ -1,0 +1,119 @@
+@font-face {
+    font-family: Rajdhani-Bold;
+    src: url(../fonts/Rajdhani-Bold.ttf);
+}
+
+body {
+    background-color: #fff;
+    font-family: "Rajdhani-Bold",Arial, sans-serif;
+    
+    
+    
+  }
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    
+  }
+  
+ 
+  
+
+  .topnav {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:-8px -8px 1px;
+    
+  }
+
+
+/* Style the p and links inside the navigation bar */
+
+  .topnav p {
+    color: #fff;
+    font-size: 24px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .main {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+ .hd{
+    margin-left: 950px;
+ }
+
+  .l{
+    margin-left: 20px;
+  }
+  
+  .r{
+    margin-right: 20px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav  a:hover
+  {
+    color: #00bcd4;
+  }
+
+h1{
+    text-align: center;
+    margin-top: 120px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    padding-left:50px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.delete-btn {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #cc0000;
+}
+
+thead,tfoot{
+
+    background: #333;
+    color: white;
+}
+
+
+  
